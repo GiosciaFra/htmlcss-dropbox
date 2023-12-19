@@ -214,6 +214,8 @@ nav ul {
 }
 
 .middle-div {
+    border: 2px solid black;
+    /* test */
     overflow-y: scroll;
 }
 
@@ -228,18 +230,36 @@ nav ul {
     /* test */
     flex-grow: 1;
 }
+ /* fine sez. 5 */
+
+ /* inizio sez.6 */
 
 
+ .freetrial {
+    background-color: burlywood;
+    border: 1px solid red;
+    height: 300px;
+    /* test */
+    
+    margin-top: 30px;
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+ }
+
+.freetrial  div{
+    border: 1px dashed black;
+    /* test */
+}
+
+/* fine sez. 6 */
 
 
-
-
-
-
-
-
-
-
-
-
-/* fine sez. 5 */
+/* inizio sez. 7 */
