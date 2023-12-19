@@ -5,6 +5,7 @@
    
 }
 
+/* inizio nav */
 nav > * {
     border: 1px dashed red;
 
@@ -26,8 +27,10 @@ nav ul {
     gap: 23px;
 }
 
+/* fine nav */
 
 
+/* inizio jumbo */
 
 .jumbotron {
     background-color: aqua;
@@ -41,6 +44,14 @@ nav ul {
    flex-direction: column;
    align-items: center;
 
+}
+
+.jumbotron .titolo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding-bottom: 20px;
+    background-color: bisque;
 }
 
 .description {
@@ -63,4 +74,41 @@ nav ul {
 
 }
 
+/* fine jumbo */
 
+
+.plan {
+    background-color: cadetblue;
+    /* test */
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 80px;
+    gap: 25px;
+}
+
+section {
+    /* width: 1000px; */
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.plan .columns {
+    display: flex;
+    gap: 30px;
+
+    justify-content: center
+}
+
+.columns, .row {
+    border: 2px solid green;
+    background-color: coral;
+    display: flex;
+    justify-content: flex-start
+}
