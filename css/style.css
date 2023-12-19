@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
+}
+
+nav > * {
+    border: 1px dashed red;
+
+}
+
+nav {
+    border: 2px solid blue;
+    background-color: rgb(133, 192, 24);
+    /* test */
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 10px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 23px;
 }
