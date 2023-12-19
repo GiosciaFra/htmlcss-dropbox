@@ -199,3 +199,47 @@ nav ul {
 }
 
 /* fine sez. 4 */
+
+/* inizio sez. 5 */
+.fifth {
+    margin-top: 30px;
+    /* test */
+    display: flex;
+}
+
+.left-div, .right-div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.middle-div {
+    overflow-y: scroll;
+}
+
+.left-div div, .right-div div {
+    border: 2px solid red;
+    /* test */
+    width: 50%;
+}
+
+.left-div, .middle-div, .right-div {
+    height: 500px;
+    /* test */
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* fine sez. 5 */
