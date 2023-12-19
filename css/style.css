@@ -78,7 +78,6 @@ nav ul {
 
 /* inizio sez.1 */
 .first {
-    /* width: 1000px; */
     height: 500px;
 
     display: flex;
@@ -176,4 +175,27 @@ nav ul {
     padding-bottom: 20px;
 }
 
-/* fine sez 3 */
+/* fine sez. 3 */
+
+/* inizio sez. 4 */
+
+
+.more {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: violet;
+    height: 250px;
+    /* test */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+
+
+}
+
+/* fine sez. 4 */
