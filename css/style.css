@@ -77,6 +77,13 @@ nav ul {
 /* fine jumbo */
 
 /* inizio sez.1 */
+.first {
+    /* width: 1000px; */
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+}
 .plan {
     background-color: cadetblue;
     /* test */
@@ -91,13 +98,6 @@ nav ul {
     gap: 25px;
 }
 
-.first {
-    /* width: 1000px; */
-    height: 500px;
-
-    display: flex;
-    justify-content: center;
-}
 
 .plan .columns {
     display: flex;
@@ -143,4 +143,37 @@ nav ul {
 
 /* fine sez.2 */
 
+/* inizio sez.3 */
+.third{
 
+    padding-top: 25px;
+
+}
+.info {
+    background-color: lightslategray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info div {
+    border: 2px dashed red;
+    /* test */
+
+    height: 200px;
+    width: calc(1000px / 3);
+    
+}
+
+.operazioni {
+    background-color: azure;
+
+    display: flex;
+    justify-content: center ;
+
+    padding-bottom: 20px;
+}
+
+/* fine sez 3 */
