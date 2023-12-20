@@ -9,6 +9,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+    border: dotted 2px black;
+    min-height: 100px;
+
+    /* test */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* inizio nav */
 
 nav {
@@ -106,40 +116,99 @@ header .description {
 /* fine jumbo */
 
 /* inizio sez.1 */
-.first {
-    height: 500px;
 
+.business-plans {
+     
+    margin-bottom: 150px;
+}
+
+.business-plans .subtitle {
+    padding-bottom: 60px;
+}
+
+
+h2 {
+    font-size: 30px;
+}
+
+
+.business-plans .fatturazione-check  {
+    padding-bottom: 46px;
+}
+
+.col .user h3 {
+    font-size: 13px;
+}
+
+
+.type .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.type .btn {
+    padding: 15px 37px ;
+}
+
+.row .col .user {
+    border: 1px solid gray;
     display: flex;
     justify-content: center;
+    padding: 12px 0px ;
+    
 }
-.plan {
-    background-color: cadetblue;
-    /* test */
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
 
+.business-plans .row {
     display: flex;
+    justify-content: space-between;
+}
+
+.business-plans .col {
+    width: calc(100% / 3 - 50px / 3 * 2);
+}
+
+.row .col .type {
+    border: 1px solid grey;
+    display: flex;
+    flex-wrap: wrap; 
     flex-direction: column;
+    padding-right: 10px;
+    padding-left: 16px;
 
-    padding-top: 80px;
-    gap: 25px;
+}
+
+.type p a {
+    color: #6544f0;
 }
 
 
-.plan .columns {
-    display: flex;
-    gap: 30px;
-
-    justify-content: center
+.type p{
+    padding-top: 25px;
 }
 
-.columns, .row {
-    border: 2px solid green;
-    background-color: coral;
-    display: flex;
-    justify-content: flex-start
+.type .highlights h3 {
+    padding-top: 65px;
+    
 }
+
+
+.col .type .plantype{
+    padding-top: 35px;
+}
+
+.col .type .price .month {
+    color: gray;
+    padding-bottom: 27px;
+}
+
+
+.col .characteristics :nth-child(3) {
+    padding-bottom: 50px;
+}
+
+
+
+
 
 /* fine sez.1 */
 
