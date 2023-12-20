@@ -5,26 +5,38 @@
    
 }
 
-/* inizio nav */
-nav > * {
-    border: 1px dashed red;
-
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* inizio nav */
+
 nav {
-    border: 2px solid blue;
-    background-color: rgb(133, 192, 24);
-    /* test */
+    background-color: rgb(255, 255, 255);
+    
     display: flex;
     justify-content: space-between;
-    padding: 18px 10px;
+    
+    padding: 28px 20px;
 
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-    gap: 23px;
+    gap: 38px;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: #0061ff;
+
+    padding: 10px 17px;
 }
 
 /* fine nav */
