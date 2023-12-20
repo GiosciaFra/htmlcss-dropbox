@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-    border: dotted 2px black;
     min-height: 100px;
 
     /* test */
@@ -132,9 +131,12 @@ h2 {
 }
 
 
+
 .business-plans .fatturazione-check  {
     padding-bottom: 46px;
 }
+
+
 
 .col .user h3 {
     font-size: 13px;
@@ -169,11 +171,11 @@ h2 {
 
 .row .col .type {
     border: 1px solid grey;
-    display: flex;
-    flex-wrap: wrap; 
-    flex-direction: column;
-    padding-right: 10px;
-    padding-left: 16px;
+
+    padding-right: 18px;
+    padding-left: 15px;
+
+    height: 100%;
 
 }
 
@@ -182,29 +184,69 @@ h2 {
 }
 
 
-.type p{
-    padding-top: 25px;
-}
 
 .type .highlights h3 {
     padding-top: 65px;
+    font-size: 13px;
     
 }
 
 
 .col .type .plantype{
     padding-top: 35px;
+    padding-bottom: 22px ;
 }
 
 .col .type .price .month {
     color: gray;
-    padding-bottom: 27px;
+    padding-bottom: 53px;
+    padding-top: 22px ;
 }
 
 
 .col .characteristics :nth-child(3) {
     padding-bottom: 50px;
 }
+
+.characteristics p {
+    padding-bottom: 25px;
+}
+
+.icon {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.fa-solid {
+    padding-right: 5px;
+}
+
+.buynow {
+    padding-top: 32px;
+}
+
+.bottom-col {
+    display: flex;
+    flex-direction: column;
+}
+.divdx {
+    border: 1px solid red;
+}
+
+.divsx {
+    display: flex;
+    
+    border: 1px solid red;
+}
+.bottom-col .team  {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
