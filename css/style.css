@@ -274,23 +274,33 @@ h2 {
 
 .partner {
     display: flex;
-
-   
+    gap: 46px;
     padding-top: 50px;
 }
 
-.img2, .text2 {
-    height: 250px;
-    flex-grow: 1;
+.partner .image {
+    width: 60%;
 }
 
-.img2 {
-    background-color: blueviolet;
+.partner .text {
+    width: 40%;
 }
 
-.text2 {
-    background-color: yellow;
+.partner .image img {
+    width: 100%;
 }
+
+.partner .text p{
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.btn-secondary {
+    display: inline;
+    border: 2px solid grey;
+    padding: 13px;
+}
+
 
 /* fine sez.2 */
 
