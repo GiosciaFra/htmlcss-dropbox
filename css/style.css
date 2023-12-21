@@ -267,11 +267,6 @@ h2 {
 
 }
 
-
-
-
-
-
 /* fine sez.1 */
 
 
@@ -280,10 +275,7 @@ h2 {
 .partner {
     display: flex;
 
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-
+   
     padding-top: 50px;
 }
 
@@ -303,37 +295,32 @@ h2 {
 /* fine sez.2 */
 
 /* inizio sez.3 */
-.third{
-
-    padding-top: 25px;
-
-}
-.info {
-    background-color: lightslategray;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.info div {
-    border: 2px dashed red;
-    /* test */
-
-    height: 200px;
-    width: calc(1000px / 3);
-    
-}
 
 .operazioni {
-    background-color: azure;
-
-    display: flex;
-    justify-content: center ;
-
-    padding-bottom: 20px;
+    margin-bottom: 215px;
+    margin-top: 160px;
 }
+
+.operazioni div h2{
+    padding-bottom: 73px;
+}
+
+.operazioni .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.operazioni  .col {
+    width: calc(100% / 3 - 50px / 3 * 2);
+}
+
+.operazioni .row .col .image img {
+    width: 100%;
+}
+
+
 
 /* fine sez. 3 */
 
