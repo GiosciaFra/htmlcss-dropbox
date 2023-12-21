@@ -479,35 +479,41 @@ h2 {
 /* fine senz. 7 */
 
 /* inizio footer */
+ footer {
+    background-color: black;
+   
+ }
 
-
-.top-footer {
-    background-color: yellowgreen;
-
-    margin-top: 30px;
-
+ .footer-container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
+ }
+
+.top-footer {
+    color: white;
+
+    margin-top: 30px;
+
+    
+
     display: flex;
-    justify-content: space-between;
 
     padding-bottom: 50px;
+    padding-top: 100px;
     
 }
 
-
-
-
-footer ul {
-    border: 1px solid black;
-    /* test */
-    
-    
+footer  ul {
+    flex-grow: 1;
 }
 
+.top-footer ul strong {
+    font-size: 20px;
+}
 footer  ul li {
+    font-size: 12px;
     list-style-type: none;
 
     margin: 5px 0px ;
@@ -515,14 +521,20 @@ footer  ul li {
 
 
 .language {
-    background-color: darkorange;
-    height: 50px;
-    border: 1px solid black;
-    /* test */
-    padding-top: 20px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+
+    color: white;
+    background-color: black;
+    padding: 48px 0px ;
+   
+}
+
+
+
+.footer-container hr {
+    width: 10%;
 }
 
 
