@@ -292,7 +292,7 @@ h2 {
 
 .partner .text p{
     padding-top: 15px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 
 .btn-secondary {
@@ -338,21 +338,26 @@ h2 {
 
 
 .more {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: violet;
-    height: 250px;
-    /* test */
+    
+    
+ 
+    
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     margin-top: 50px;
+    margin-bottom: 150px;
+}
 
+.more h4 {
+    font-size:30px ;
+    padding-bottom: 70px;
+    max-width: 500px;
+}
 
+.more a {
+    color: #4259f1;
 }
 
 /* fine sez. 4 */
