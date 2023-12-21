@@ -464,17 +464,43 @@ h2 {
 /* inizio sez. 7 */
 
 .faq {
-    background-color: cyan;
-    height: 300px;
 
-    margin-top: 40px;
+    display: flex;
 
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 
+    margin-top: 140px;
+    margin-bottom: 150px;
 
 }
+
+
+
+.box-faq h3 {
+    padding-bottom: 38px;
+
+    font-size: 28px;
+
+    padding-left: 10px;
+}
+
+.box-faq .question {
+    display: flex;
+    align-items: center;
+    
+    padding: 0 10px;
+    gap: 5px;
+}
+
+.box-faq .question p{
+    font-weight: bold;
+    font-size: 13px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
 /* fine senz. 7 */
 
