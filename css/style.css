@@ -339,10 +339,6 @@ h2 {
 
 .more {
     
-    
- 
-    
-
     display: flex;
     flex-direction: column;
 
@@ -351,9 +347,9 @@ h2 {
 }
 
 .more h4 {
-    font-size:30px ;
+    font-size: 38px ;
     padding-bottom: 70px;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .more a {
@@ -364,33 +360,64 @@ h2 {
 
 /* inizio sez. 5 */
 .fifth {
-    margin-top: 30px;
-    /* test */
     display: flex;
 }
 
-.left-div, .right-div {
+.fifth .container-square {
     display: flex;
     flex-wrap: wrap;
+
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
     
 }
 
-.middle-div {
-    border: 2px solid black;
-    /* test */
-    overflow-y: scroll;
-}
 
-.left-div div, .right-div div {
-    border: 2px solid red;
-    /* test */
+
+.fifth .container-square .square {
+    position: relative;
+
     width: 50%;
+    height: 50%;
+
+    transition: border width 0.5 ease;
+
+    border: 0px solid rgba(255, 255, 255, 0.5);
 }
 
-.left-div, .middle-div, .right-div {
-    height: 500px;
-    /* test */
-    flex-grow: 1;
+.fifth .square img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 50%;
+
+    transform: translate(-50%, -50%);
+
+    filter: invert(1);
+}
+
+.fifth .middle-square {
+    padding: 48px;
+    height: 100%;
+
+    background-color: #f5f5f5;
+
+    overflow-y: auto;
+}
+
+.fifth .middle-square img {
+    max-width: 280px;
+    margin-bottom: 42px;
+}
+
+.fifth .middle-square hr {
+    width: 20%;
+
+    border-style: solid;
+    border-color: gray;
+
+    margin-bottom: 42px;
 }
  /* fine sez. 5 */
 
