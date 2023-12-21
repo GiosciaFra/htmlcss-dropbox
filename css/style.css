@@ -153,7 +153,7 @@ h2 {
 }
 
 .row .col .user {
-    border: 1px solid gray;
+    border: 1px solid #dcdcdd;
     display: flex;
     justify-content: center;
     padding: 12px 0px ;
@@ -170,7 +170,7 @@ h2 {
 }
 
 .row .col .type {
-    border: 1px solid grey;
+    border: 1px solid #dcdcdd;
 
     padding-right: 18px;
     padding-left: 15px;
@@ -227,25 +227,45 @@ h2 {
 }
 
 .bottom-col {
-    display: flex;
-    flex-direction: column;
-}
-.divdx {
-    border: 1px solid red;
+    border: 1px solid #dcdcdd;
 }
 
-.divsx {
-    display: flex;
-    
-    border: 1px solid red;
-}
-.bottom-col .team  {
-    border: 1px solid gray;
-    display: flex;
-    justify-content: center;
+.team   {
+    padding: .6em;
+
+    border-bottom: solid 1px #dcdcdd;
+
+    text-align: center;
+    font-size: .8em;
 }
 
 
+.enterprise {
+    display: flex;
+    flex-direction: row;
+
+    padding: 38px 28px;
+}
+
+.enterprise > p {
+    margin-bottom: 40px;
+}
+
+.enterprise .divsx h3 {
+    margin-bottom: 18px;
+}
+
+.enterprise .divsx strong {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.enterprise .divdx .sales a {
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+
+}
 
 
 
