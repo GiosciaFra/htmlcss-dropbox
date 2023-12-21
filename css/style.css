@@ -425,28 +425,38 @@ h2 {
 
 
  .freetrial {
-    background-color: burlywood;
-    border: 1px solid red;
-    height: 300px;
-    /* test */
-    
-    margin-top: 30px;
-
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #b4d0e7;
 
     display: flex;
-    justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+
+    gap: 200px;
+
+    padding-bottom: 120px;
+    padding-top: 100px;
+    
     
  }
 
-.freetrial  div{
-    border: 1px dashed black;
-    /* test */
+
+.sixth .freetrial div .break-text {
+    font-size: 30px;
+    white-space: pre-line;
+    color: #60082b;
 }
+
+.freetrial div .btn-freetrial a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+    padding: 12px 50px;
+}
+
+
+
+
 
 /* fine sez. 6 */
 
